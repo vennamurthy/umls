@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-20T11:23:08.621Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Dg7aiXlPamct4aEwsHJA" version="20.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-20T11:25:17.011Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="v69nVGPVVQVH7lTu1Dvr" version="20.8.8" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="2327" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -50,7 +50,7 @@
           <mxGeometry x="-10" y="75" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zCFs2bRSD1R6RlgsWCKW-37" value="ParkingSpot (abstract)" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="760" y="530" width="180" height="178" as="geometry">
+          <mxGeometry x="760" y="502" width="180" height="178" as="geometry">
             <mxRectangle x="390" y="550" width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -88,7 +88,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zCFs2bRSD1R6RlgsWCKW-59" value="ParkingSpotManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="109.5" y="530" width="200" height="170" as="geometry" />
+          <mxGeometry x="140" y="510" width="200" height="170" as="geometry" />
         </mxCell>
         <mxCell id="zCFs2bRSD1R6RlgsWCKW-60" value="+ ParkingSpots : List&lt;ParkingSpot&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="zCFs2bRSD1R6RlgsWCKW-59">
           <mxGeometry y="26" width="200" height="26" as="geometry" />
@@ -111,7 +111,7 @@
         <mxCell id="zCFs2bRSD1R6RlgsWCKW-66" value="+ ParkingSpots: List&amp;lt;ParkingSpot&amp;gt;&lt;br&gt;&lt;br&gt;+ Strategy: NearToElevatorParkingStrategy&lt;br&gt;&lt;br&gt;+ Constructor() : Super(ParkingSpots, Parking Strategy)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="zCFs2bRSD1R6RlgsWCKW-65">
           <mxGeometry y="29" width="310" height="101" as="geometry" />
         </mxCell>
-        <mxCell id="zCFs2bRSD1R6RlgsWCKW-67" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=12;entryX=0.622;entryY=1.026;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="zCFs2bRSD1R6RlgsWCKW-63" target="zCFs2bRSD1R6RlgsWCKW-62">
+        <mxCell id="zCFs2bRSD1R6RlgsWCKW-67" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=12;entryX=0.379;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="zCFs2bRSD1R6RlgsWCKW-63" target="zCFs2bRSD1R6RlgsWCKW-62">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="103" y="828.58" as="sourcePoint" />
             <mxPoint x="187.3800000000001" y="700.0000000000001" as="targetPoint" />
@@ -119,18 +119,15 @@
         </mxCell>
         <mxCell id="zCFs2bRSD1R6RlgsWCKW-68" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=12;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="400" y="830" as="sourcePoint" />
-            <mxPoint x="240" y="700" as="targetPoint" />
+            <mxPoint x="450" y="830" as="sourcePoint" />
+            <mxPoint x="256" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zCFs2bRSD1R6RlgsWCKW-70" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;fontSize=12;entryX=0;entryY=0.984;entryDx=0;entryDy=0;exitX=0.996;exitY=0.442;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="zCFs2bRSD1R6RlgsWCKW-62" target="zCFs2bRSD1R6RlgsWCKW-38">
+        <mxCell id="zCFs2bRSD1R6RlgsWCKW-70" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;fontSize=12;entryX=0.009;entryY=0.834;entryDx=0;entryDy=0;exitX=0.998;exitY=0.281;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="zCFs2bRSD1R6RlgsWCKW-62" target="zCFs2bRSD1R6RlgsWCKW-38">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="350" y="700" as="sourcePoint" />
             <mxPoint x="510" y="700" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="zCFs2bRSD1R6RlgsWCKW-71" value="HAS - A" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="416" y="615" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zCFs2bRSD1R6RlgsWCKW-72" value="ParkingStrategy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="160" y="1110" width="160" height="60" as="geometry" />
@@ -142,7 +139,7 @@
           <mxGeometry y="34" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="zCFs2bRSD1R6RlgsWCKW-76" value="NearToEntranceParkingStrategy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="1240" width="240" height="70" as="geometry" />
+          <mxGeometry x="-40" y="1300" width="240" height="70" as="geometry" />
         </mxCell>
         <mxCell id="zCFs2bRSD1R6RlgsWCKW-78" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=12;" vertex="1" parent="zCFs2bRSD1R6RlgsWCKW-76">
           <mxGeometry y="26" width="240" height="8" as="geometry" />
@@ -151,7 +148,7 @@
           <mxGeometry y="34" width="240" height="36" as="geometry" />
         </mxCell>
         <mxCell id="zCFs2bRSD1R6RlgsWCKW-80" value="NearToElevatorParkingStrategy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="280" y="1240" width="220" height="70" as="geometry" />
+          <mxGeometry x="280" y="1300" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="zCFs2bRSD1R6RlgsWCKW-81" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=12;" vertex="1" parent="zCFs2bRSD1R6RlgsWCKW-80">
           <mxGeometry y="26" width="220" height="8" as="geometry" />
@@ -160,7 +157,7 @@
           <mxGeometry y="34" width="220" height="36" as="geometry" />
         </mxCell>
         <mxCell id="zCFs2bRSD1R6RlgsWCKW-83" value="DefaultParkingStrategy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="120" y="1340" width="240" height="70" as="geometry" />
+          <mxGeometry x="120" y="1400" width="240" height="70" as="geometry" />
         </mxCell>
         <mxCell id="zCFs2bRSD1R6RlgsWCKW-84" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=12;" vertex="1" parent="zCFs2bRSD1R6RlgsWCKW-83">
           <mxGeometry y="26" width="240" height="8" as="geometry" />
