@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-20T11:02:11.591Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="VUorKks-HyrCNizUeUW9" version="20.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-20T11:06:14.935Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="1Qb5FPV9p0Gc3pl1W1on" version="20.8.8" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
-    <mxGraphModel dx="1884" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2573" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -100,16 +100,16 @@
           <mxGeometry y="60" width="200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="zCFs2bRSD1R6RlgsWCKW-63" value="TwoWheelerParkingSpotManager&amp;nbsp;&amp;nbsp;" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="840" width="220" height="90" as="geometry" />
+          <mxGeometry x="-20" y="840" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zCFs2bRSD1R6RlgsWCKW-64" value="&amp;nbsp;+ Price : int" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="zCFs2bRSD1R6RlgsWCKW-63">
-          <mxGeometry y="29" width="220" height="61" as="geometry" />
+        <mxCell id="zCFs2bRSD1R6RlgsWCKW-64" value="+ ParkingSpots: List&amp;lt;ParkingSpot&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="zCFs2bRSD1R6RlgsWCKW-63">
+          <mxGeometry y="29" width="220" height="31" as="geometry" />
         </mxCell>
         <mxCell id="zCFs2bRSD1R6RlgsWCKW-65" value="FourWheelerParkingSpotManager&amp;nbsp;" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="280" y="840" width="200" height="90" as="geometry" />
+          <mxGeometry x="280" y="840" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zCFs2bRSD1R6RlgsWCKW-66" value="&amp;nbsp;+ Price : int" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="zCFs2bRSD1R6RlgsWCKW-65">
-          <mxGeometry y="29" width="200" height="61" as="geometry" />
+        <mxCell id="zCFs2bRSD1R6RlgsWCKW-66" value="+ ParkingSpots: List&amp;lt;ParkingSpot&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="zCFs2bRSD1R6RlgsWCKW-65">
+          <mxGeometry y="29" width="200" height="31" as="geometry" />
         </mxCell>
         <mxCell id="zCFs2bRSD1R6RlgsWCKW-67" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=12;entryX=0.316;entryY=1.057;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -122,6 +122,15 @@
             <mxPoint x="105.5" y="838.58" as="sourcePoint" />
             <mxPoint x="209.16000000000008" y="701.92" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="zCFs2bRSD1R6RlgsWCKW-70" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;fontSize=12;entryX=0;entryY=0.984;entryDx=0;entryDy=0;exitX=0.996;exitY=0.442;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="zCFs2bRSD1R6RlgsWCKW-62" target="zCFs2bRSD1R6RlgsWCKW-38">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="350" y="700" as="sourcePoint" />
+            <mxPoint x="510" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zCFs2bRSD1R6RlgsWCKW-71" value="HAS - A" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="416" y="615" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
